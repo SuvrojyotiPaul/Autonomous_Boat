@@ -14,10 +14,10 @@ class ServoControlNode(Node):
             'servo_commands',
             self.command_callback,
             10)
-        self.subscription  # prevent unused variable warning
-        # Initialize PiGPIOFactory for accurate PWM control
+        self.subscription  
+        
         factory = PiGPIOFactory()
-        # Initialize the servos
+        
         self.servo1 = Servo(17, pin_factory=factory)
         self.servo2 = Servo(27, pin_factory=factory)
 
