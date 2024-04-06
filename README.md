@@ -4,7 +4,9 @@
 
 This project aims to develop an autonomous boat capable of navigating and performing tasks with minimal human intervention. Utilizing ROS2 for communication and coordination among various components, the boat can autonomously navigate through water bodies, making it suitable for research, environmental monitoring. This README provides detailed information on the project's components, including ROS2 nodes for command publishing, gamepad control, GPS data handling, and servo control.
 
+
 ### I have provide examples of how to run the nodes with general pacakage name called "my_package", replace it your pacakage name , but before that don't forget to put the node files inside your ros2 package folder. 
+
 
 ## Repository Contents
 
